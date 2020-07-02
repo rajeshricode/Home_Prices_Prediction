@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banglore Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1 style="text-align: center ;">WELCOME TO BANGALURU </h1>
+    <h3>Place famous for India's high-tech industry, also known for its parks and nightlife.</h3>
+    <h3>Right home for the right price in namma Bengaluru city. </h3>
+<div class="img"></div>
+<form class="form">
+    <h2>AREA SQUARE FEET</h2>
+    <input class="area" type="email" id="uiSqft" class="Floatabel" name="Squareft" value="1000">
+    <h2>BHK</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bhk-1" name="uiBHK" value="1"/>
+        <label for="radio-bhk-1">1</label> 
+        <input type="radio" id="radio-bhk-2" name="uiBHK" value="2"/>
+        <label for="radio-bhk-2">2</label>
+        <input type="radio" id="radio-bhk-3" name="uiBHK" value="3"/>
+        <label for="radio-bhk-3">3</label>
+        <input type="radio" id="radio-bhk-4" name="uiBHK" value="4"/>
+        <label for="radio-bhk-4">4</label>
+        <input type="radio" id="radio-bhk-5" name="uiBHK" value="5"/>
+        <label for="radio-bhk-5">5</label>
+    </div>
+
+
+    <h2>BATHROOM</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bath-1" name="uiBath" value="1"/>
+        <label for="radio-bath-1" >1</label>
+        <input type="radio" id="radio-bath-2" name="uiBath" value="2"/>
+        <label for="radio-bath-2" >2</label>
+        <input type="radio" id="radio-bath-3" name="uiBath" value="3"/>
+        <label for="radio-bath-3" >3</label>
+        <input type="radio" id="radio-bath-4" name="uiBath" value="4"/>
+        <label for="radio-bath-4" >4</label>
+        <input type="radio" id="radio-bath-5" name="uiBath" value="5"/>
+        <label for="radio-bath-5" >5</label>
+        
+    </div>
+
+    <h2>LOCATION</h2>
+    <div>
+        <select class="location" name="" id="uilocation">
+            <option value="" disabled="disabled" selected="selected" >Choose a Location</option>
+                <option>Rajaji Nagar</option>
+                <option>Electro city</option>
+            </select>
+    </div>
+
+    <button class="submit" onclick="EstimatePrice()" type="button">ESTIMATE PRICE</button>
+    <div id="uiEstimatePrice" class="result"><h2></h2></div>
+</form>
+
+
+</body>
+
+</html>
