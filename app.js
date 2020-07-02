@@ -41,6 +41,7 @@ function EstimatePrice(){
         console.log(status);
     });
 
+    estPrice.innerHTML = "<h2>" + 219.14 + "Lakh </h2>";
 }
 
 
