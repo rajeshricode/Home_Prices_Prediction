@@ -1,0 +1,2 @@
+# Home_Prices_Prediction
+In this project I have worked on a data set (Bangalore home prices with all home details ) taken from Kaggle . Aim of the project is to predict the price of home in Bangalore city on the basis of past data. Starting from the data cleaning and observing the data's co-relation followed with the machine learning algorithm . This coding is done on jupyter notebook . Further designed a website using visual studio and deployed using GitHub. 
